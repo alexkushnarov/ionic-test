@@ -3,3 +3,9 @@ export interface Quote {
   person: string;
   text: string;
 }
+
+export interface QuoteGroup {
+  category: string,
+  quotes: Quote[],
+  icon: string
+}
